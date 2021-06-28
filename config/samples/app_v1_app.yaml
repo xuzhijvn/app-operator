@@ -1,0 +1,24 @@
+apiVersion: app.huolala.cn/v1
+kind: App
+metadata:
+  name: nginx-app
+  namespace: default
+spec:
+  # Add fields here
+  replicas: 2
+  image: nginx:1.16.1
+  ports:
+    - targetPort: 80
+      port: 8080
+  envs:
+    - name: DEMO
+      value: app
+    - name: GOPATH
+      value: gopath
+  resources:
+    limits:
+      cpu: 500m
+      memory: 500Mi
+    requests:
+      cpu: 100m
+      memory: 100Mi
