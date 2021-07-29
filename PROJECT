@@ -1,4 +1,4 @@
-domain: huolala.cn
+domain: hv01a1a.cn
 layout:
 - go.kubebuilder.io/v3
 plugins:
@@ -11,7 +11,7 @@ resources:
     crdVersion: v1
     namespaced: true
   controller: true
-  domain: huolala.cn
+  domain: hv01a1a.cn
   group: app
   kind: App
   path: github.com/xuzhijvn/app/api/v1

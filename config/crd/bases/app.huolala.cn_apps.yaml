@@ -6,9 +6,9 @@ metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.4.1
   creationTimestamp: null
-  name: apps.app.huolala.cn
+  name: apps.app.hv01a1a.cn
 spec:
-  group: app.huolala.cn
+  group: app.hv01a1a.cn
   names:
     kind: App
     listKind: AppList

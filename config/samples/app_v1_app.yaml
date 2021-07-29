@@ -1,4 +1,4 @@
-apiVersion: app.huolala.cn/v1
+apiVersion: app.hv01a1a.cn/v1
 kind: App
 metadata:
   name: nginx-app
