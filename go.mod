@@ -1,4 +1,4 @@
-module github.com/xuzhijvn/app
+module github.com/xuzhijvn/app-operator
 
 go 1.15
 
