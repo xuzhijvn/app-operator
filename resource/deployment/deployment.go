@@ -1,7 +1,7 @@
 package deployment
 
 import (
-	appv1 "github.com/xuzhijvn/app/api/v1"
+	appv1 "github.com/xuzhijvn/app-operator/api/v1"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

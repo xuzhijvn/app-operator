@@ -19,8 +19,8 @@ package controllers
 import (
 	"context"
 	"encoding/json"
-	"github.com/xuzhijvn/app/resource/deployment"
-	"github.com/xuzhijvn/app/resource/service"
+	"github.com/xuzhijvn/app-operator/resource/deployment"
+	"github.com/xuzhijvn/app-operator/resource/service"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
@@ -31,7 +31,7 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	appv1 "github.com/xuzhijvn/app/api/v1"
+	appv1 "github.com/xuzhijvn/app-operator/api/v1"
 )
 
 // AppReconciler reconciles a App object
